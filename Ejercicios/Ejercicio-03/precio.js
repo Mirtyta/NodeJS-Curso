@@ -1,11 +1,11 @@
-// Ejercicio Nro 2
+// Ejercicio Nro 3
 // Este programa recorre una lista de precios y calcula:
 // - el precio base
 // - el IVA (21%)
 // - el precio final con IVA
 // Luego muestra todo en consola con formato claro
 
-// Array de precios (cada valor representa un producto)
+// Array de 10 precios (cada valor representa un producto)
 const precios = [1000, 3500.5, 3450, 6540.34, 800, 3200, 1240.55, 2000, 3890.67, 213.87];
 
 // Título (se imprime una sola vez)
@@ -42,7 +42,7 @@ precios.forEach((precio, index) => {
 
 padStart(longitud, caracter)
 
-👉 Sirve para completar un texto agregando caracteres al inicio
+👉 Sirve para completar un texto (stribg) agregando caracteres al inicio
 hasta alcanzar una longitud específica. no existe un padStart para números directamente.
 
 Ejemplo:
@@ -52,11 +52,17 @@ Ejemplo:
 👉 En este caso:
 - index + 1, como es númerico, primero lo convertimos a string.
 - toFixed(2) convierte el número a string con 2 decimales
-- padStart(10) asegura que todos los valores ocupen 10 caracteres
+- padStart(7) asegura que todos los valores ocupen 7 caracteres
 - agrega espacios adelante si el número es más corto
 
 💡 Resultado:
 Todos los números quedan alineados en columnas,
 como si fuera una tabla, mejorando la legibilidad.
-*/
 
+
+🧠 Tips: si utilizan Visual Studio Code, abran el archivo que desean correr 
+, y presionen el boton de play ▶️ de su code, se encuentra comunmente a la 
+derecha donde esta la barra de nombres de archivo, ésto abrirá una terminal 
+y podrán ver sus resultados en la solapa salida de ésa terminal.
+
+*/
