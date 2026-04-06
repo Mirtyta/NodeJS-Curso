@@ -10,8 +10,21 @@ Este repositorio es para nosotros: para reforzar lo aprendido, sacarnos dudas y 
 ## 📂 Estructura del Proyecto
 El contenido está organizado por carpetas para que encontrar lo que buscan sea súper rápido:
 
-* **`/cuestionarios`**: Los repasamos juntos una vez que los vemos con el profe para que todos tengamos la info correcta.
-* **`/ejercicios`**: Todas las prácticas de las clases, organizadas para que puedan consultarlas cuando quieran.
+* **`/cuestionarios`**: Los repasamos juntos una vez que los vemos con el profe para que todos tengamos la info correcta.   
+
+  💬 **[Cuestionario Clase 2](./Cuestionarios/cuestionarioClase2.md)**
+
+---
+* **`/ejercicios`**: Todas las prácticas de las clases, organizadas para que puedan consultarlas cuando quieran.   
+
+  💬 **[Ejercicio N° 1](./Ejercicios/Ejercicio-01/consigna.md)** - Consigna |   
+  💬 **[Ejercicio N° 2](./Ejercicios/Ejercicio-02/consigna.md)** - Consigna |
+      💬 **[Código](./Ejercicios/Ejercicio-02/index.js)** - Código |   
+  💬 **[Ejercicio N° 3](./Ejercicios/Ejercicio-03/consigna.md)** - Consigna |
+      💬 **[Código](./Ejercicios/Ejercicio-03/precio.js)** - Código |   
+
+
+ 
 * **`/recursos`**: (Opcional) Enlaces a documentación o material extra de utilidad.
 
 > "Separar las responsabilidades en el código es como organizar la casa: ¡después encontrás todo mucho más fácil!" ✨
@@ -28,7 +41,7 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
-## 🏛️ Información Oficial de la Cursada
+## 🏛️ Información Oficial de la Cursada (Comisión 26132)
 
 ### 🎥 Clases en vivo (Obligatorias)
 * **Horario:** Lunes de 19:00 a 21:00 hs.
@@ -74,7 +87,8 @@ Si quieres tener una copia local para practicar o consultar el código:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/Mirtyta/NodeJS-Curso.git](https://github.com/Mirtyta/NodeJS-Curso.git)
+   git clone https://github.com/Mirtyta/NodeJS-Curso.git
+   ```
 
 2. **Instalar dependencias:**
    ```bash
