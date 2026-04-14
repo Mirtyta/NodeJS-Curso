@@ -1,7 +1,6 @@
 # Ejercicio Práctico 1
 
-
-## Instalación y Configuración de Node JS y NPM
+### Instalación y Configuración de Node JS y NPM
 
 Ambas tecnologías se instalan de forma conjunta mediante la descarga y ejecución del instalador de Node JS
 

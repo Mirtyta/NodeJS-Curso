@@ -1,5 +1,6 @@
 # Ejercicio Práctico 3
 
+### Clase 3: Funciones, Arrays y Métodos en JavaScript
 
 Después de demostrar tus primeros pasos con Node.js, Matías y Sabrina te plantean un reto más interesante. 
 

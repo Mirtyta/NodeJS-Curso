@@ -1,0 +1,15 @@
+{
+  "name": "misiongemela",
+  "version": "1.0.0",
+  "description": "Misión espacial de Mirty",
+  "main": "comunicaciones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node comunicaciones.js",
+    "lanzar": "node comunicaciones.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

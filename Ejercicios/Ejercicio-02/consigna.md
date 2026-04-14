@@ -1,7 +1,8 @@
 # Ejercicio Práctico 2
 
+### Clase N° 2: Introducción a Node.js
 
-***Tu misión es sencilla pero crucial:***
+*Tu misión es sencilla pero crucial:*
 
 Crea un archivo llamado index.js y escribe en él el siguiente código:
 

@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-05",
+  "version": "1.0.0",
+  "description": "Ejercicio N°5",
+  "main": "crud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node crud.js",
+    "comenzar": "node crud.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
