@@ -12,18 +12,49 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 * **`/cuestionarios`**: Los repasamos juntos una vez que los vemos con el profe para que todos tengamos la info correcta.   
 
-  💬 **[Cuestionario Clase 2](./Cuestionarios/cuestionarioClase2.md)**
+  💬 **[Cuestionario Clase 2](./Cuestionarios/cuestionarioClase2.md)**   
+  💬 **[Cuestionario Clase 4] Olvide subirlo, mas tarde lo actualizo**   
+  💬 **[Cuestionario Clase 6](./Cuestionarios/cuestionarioClase6.md)**   
+  💬 **[Cuestionario Clase 8] NO EXISTE CUESTIONARIO CLASE 8**   
 
 ---
 * **`/ejercicios`**: Todas las prácticas de las clases, organizadas para que puedan consultarlas cuando quieran.   
+---
 
-  💬 **[Ejercicio N° 1](./Ejercicios/Ejercicio-01/consigna.md)** - Consigna |   
-  💬 **[Ejercicio N° 2](./Ejercicios/Ejercicio-02/consigna.md)** - Consigna |
-      💬 **[Código](./Ejercicios/Ejercicio-02/index.js)** - Código |   
-  💬 **[Ejercicio N° 3](./Ejercicios/Ejercicio-03/consigna.md)** - Consigna |
-      💬 **[Código](./Ejercicios/Ejercicio-03/precio.js)** - Código |   
+### 💬 [Ejercicio N° 1](./Ejercicios/Ejercicio-01/consigna.md) - Consigna |   
 
+---
 
+### 💬 [Ejercicio N° 2](./Ejercicios/Ejercicio-02/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-02/index.js) - Código Ejercicio Solicitado |   
+
+---
+### 💬 [Ejercicio N° 3](./Ejercicios/Ejercicio-03/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-03/precio.js) - Código Ejercicio Solicitado |   
+
+---
+
+### 💬 [Ejercicio N° 4](./Ejercicios/Ejercicio-04/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-04/miEjercicio.js) - Código Ejemplo 1  Presion arterial | 💬 [Código](./Ejercicios/Ejercicio-04/tiendaDePociones.js) - Código Ejemplo 2 Tienda de pociones | 💬 [Código](./Ejercicios/Ejercicio-04/veterinaria.js) - Código Ejemplo 3 Veterinaria |
+
+---
+
+### 💬 [Ejercicio N° 5](./Ejercicios/Ejercicio-05/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-05/crud.js) - Código Ejercicio Solicitado | 💬 [Código](./Ejercicios/Ejercicio-05/misiongemela/comunicaciones.js) - Código Ejercicio Ejemplo |
+
+---
+
+### 💬 [Ejercicio N° 6](./Ejercicios/Ejercicio-06/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-06/mision-1.js) - Código MISION 1 | 💬 [Código](./Ejercicios/Ejercicio-06/mision-2.js) - Código MISION 2|      
+
+---
+
+### 💬 [Ejercicio N° 7] NO EXISTEN EJERCICIOS PARA LA CLASE 7      
+
+---
+
+### 💬 [Ejercicio N° 8] NO EXISTEN EJERCICIOS PARA LA CLASE 8 
+
+---
+
+### 💬 [Ejercicio N° 9](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código] SIN RESOLVER AUN |
+
+---
  
 * **`/recursos`**: (Opcional) Enlaces a documentación o material extra de utilidad.
 
