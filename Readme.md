@@ -45,8 +45,8 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 * **`/Pre-entrega`**: Documentación o material de utilidad para la Pre-Entrega.  
    💬 [Pre-Entrega](./Pre-entrega/consigna.md) - Consigna Pre-entrega |  
-   💬 [Pre-Entrega](./Pre-entrega/GitHub.html) - Tutorial GitHub (formato html) |  
-   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/package.json) - Archivo package.json |  
+   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/GitHub.html) - Tutorial GitHub (formato html) |  
+   💬 [Pre-Entrega](./Pre-entrega/package.json) - Archivo package.json |  
    💬 [Pre-Entrega](./Pre-entrega/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
    💬 [Pre-Entrega](./Pre-entrega/.gitignore) - Ejemplo archivo .gitignore |  
 
