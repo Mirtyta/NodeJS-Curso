@@ -5,12 +5,11 @@ const url = "https://rickandmortyapi.com/api/character";
 
 fetch(url) // Por defecto es un GET, no necesita 'config'
   .then(response => {
-    // Usamos .ok para saber si el status es 200-299
+    // verificamos respuesta es error, enviamos directo a catch, .ok para saber si el status es 200-299
     if (!response.ok) {
-      //lanzamos el error, debe empezar con mayúscula: new Error. Si lo ponés en minúscula, el navegador no va a entender qué querés crear.
       throw new Error("El servidor falló")
     }
-      // 1. Verificamos que la respuesta sea exitosa (Status 200)
+      // Verificamos que la respuesta sea exitosa (Status 200)
       return response.json(); 
   })
   .then(data => {

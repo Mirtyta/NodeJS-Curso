@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consigna Pre-Entrega Proyecto Final - Node.js</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;700;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Fondo oscuro */
+            color: #ffffff; /* Texto principal en blanco puro para máximo contraste */
+        }
+        .code-font {
+            font-family: 'Fira Code', monospace;
+        }
+        .gradient-border {
+            border: 2px solid transparent;
+            background: linear-gradient(#1e293b, #1e293b) padding-box,
+                        linear-gradient(90deg, #38bdf8, #818cf8) border-box;
+        }
+        /* Asegurar que en móviles el contenido use el 100% del ancho con padding mínimo */
+        @media (max-width: 640px) {
+            .container-mobile {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            pre {
+                font-size: 12px !important;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-sky-500/30">
+
+    <!-- Hero Section -->
+    <header class="py-14 px-6 text-center border-b border-slate-700 bg-slate-900">
+        <div class="max-w-3xl mx-auto">
+            <span class="inline-block px-4 py-2 bg-sky-500 text-slate-900 text-xs font-black uppercase tracking-[0.2em] rounded-md mb-6">
+                Talento Tech • Back-End Node.js
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tight text-white">
+                Consignas <span class="text-sky-400">Pre-Entrega</span>
+            </h1>
+            <p class="text-slate-200 text-xl font-medium">Proyecto Final: Demostrá tu potencial en TechLab.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto container-mobile py-12 space-y-14">
+
+        <!-- Introducción Dramática -->
+        <section class="bg-slate-800 p-8 rounded-3xl border border-slate-600 shadow-xl space-y-5">
+            <p class="text-slate-100 text-lg leading-relaxed">
+                Matías y Sabrina te observan con una mezcla de entusiasmo y expectación.
+            </p>
+            <p class="text-sky-300 text-lg font-semibold border-l-4 border-sky-500 pl-4">
+                “Hemos llegado al momento clave”, dice Sabrina. “Es hora de demostrar si estás preparado para dar el siguiente paso y unirte a nuestro equipo en TechLab”.
+            </p>
+            <p class="text-indigo-300 text-lg font-semibold border-l-4 border-indigo-500 pl-4">
+                Matías, con una sonrisa, añade: “Tu desafío es integrar todo lo aprendido en un único programa. Queremos ver cómo manejas estructuras, APIs y lógica dinámica. El objetivo es construir una herramienta funcional para manejar productos de una tienda en línea desde la terminal. ¿Estás listo para el reto?”
+            </p>
+        </section>
+
+        <!-- Requerimientos del Proyecto -->
+        <section class="space-y-10">
+            <h2 class="text-4xl font-black text-white uppercase tracking-tighter">Requerimientos del Proyecto</h2>
+
+            <!-- REQUERIMIENTO 1 -->
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold text-sky-400 flex items-center">
+                    <span class="mr-3 text-white bg-sky-600 w-8 h-8 flex items-center justify-center rounded-full text-sm">1</span>
+                    Configuración Inicial
+                </h3>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 space-y-4 shadow-inner">
+                    <ul class="list-disc list-outside ml-6 space-y-3 text-slate-100 text-lg">
+                        <li>Crea un directorio donde alojarás tu proyecto e incluye un archivo <code class="bg-slate-900 px-2 py-1 rounded text-pink-400 font-bold">index.js</code> como punto de entrada.</li>
+                        <li>Inicia Node.js y configura npm usando el comando <code class="bg-slate-900 px-2 py-1 rounded text-pink-400 font-bold">npm init -y</code>.</li>
+                        <li>Agrega la propiedad <code class="bg-slate-900 px-2 py-1 rounded text-sky-300 font-bold">"type": "module"</code> en el archivo <code class="text-sky-300 font-bold underline">package.json</code> para habilitar ESModules.</li>
+                        <li>Configura un script llamado <code class="bg-slate-900 px-2 py-1 rounded text-pink-400 font-bold">start</code> para ejecutar el programa con el comando <code class="text-sky-300 font-bold">npm run start</code>.</li>
+                    </ul>
+                    <p class="pt-6 italic text-slate-300 border-t border-slate-700 text-sm leading-relaxed">
+                        Sabrina señala: “Este será el corazón de tu proyecto. Queremos un entorno limpio y profesional, como si estuvieras trabajando en un proyecto real”.
+                    </p>
+                </div>
+            </div>
+
+            <!-- REQUERIMIENTO 2 -->
+            <div class="space-y-6">
+                <h3 class="text-2xl font-bold text-sky-400 flex items-center">
+                    <span class="mr-3 text-white bg-sky-600 w-8 h-8 flex items-center justify-center rounded-full text-sm">2</span>
+                    Lógica de Gestión de Productos
+                </h3>
+                <p class="text-slate-200 text-lg leading-relaxed">Con la base del proyecto lista, ahora necesitamos implementar las funcionalidades principales usando la API FakeStore. El sistema debe ser capaz de interpretar comandos ingresados en la terminal y ejecutar las siguientes acciones:</p>
+                
+                <div class="grid grid-cols-1 gap-6">
+                    <!-- GET ALL -->
+                    <div class="gradient-border p-6 rounded-2xl bg-slate-900 shadow-lg">
+                        <h4 class="font-black text-white text-xl mb-3">Consultar Todos los Productos:</h4>
+                        <p class="text-base text-slate-200 mb-4">Si ejecutas <code class="text-emerald-400 font-bold">npm run start GET products</code>, el programa debe realizar una petición asíncrona a la API y devolver la lista completa de productos en la consola.</p>
+                        <div class="bg-black p-4 rounded-lg font-mono text-sm text-emerald-500 border border-emerald-900/30">Ejemplo: npm run start GET products</div>
+                    </div>
+
+                    <!-- GET BY ID -->
+                    <div class="gradient-border p-6 rounded-2xl bg-slate-900 shadow-lg">
+                        <h4 class="font-black text-white text-xl mb-3">Consultar un Producto Específico:</h4>
+                        <p class="text-base text-slate-200 mb-4">Si ejecutas <code class="text-emerald-400 font-bold">npm run start GET products/&lt;productId&gt;</code>, el programa debe obtener y mostrar el producto correspondiente al productId indicado.</p>
+                        <div class="bg-black p-4 rounded-lg font-mono text-sm text-emerald-500 border border-emerald-900/30">Ejemplo: npm run start GET products/15</div>
+                    </div>
+
+                    <!-- POST -->
+                    <div class="gradient-border p-6 rounded-2xl bg-slate-900 shadow-lg">
+                        <h4 class="font-black text-white text-xl mb-3">Crear un Producto Nuevo:</h4>
+                        <p class="text-base text-slate-200 mb-4">Si ejecutas <code class="text-emerald-400 font-bold">npm run start POST products &lt;title&gt; &lt;price&gt; &lt;category&gt;</code>, el programa debe enviar una petición POST a la API para agregar un nuevo producto con los datos proporcionados y devolver el id del producto creado.</p>
+                        <div class="bg-black p-4 rounded-lg font-mono text-sm text-emerald-500 border border-emerald-900/30">Ejemplo: npm run start POST products T-Shirt-Rex 300 remeras</div>
+                    </div>
+
+                    <!-- DELETE -->
+                    <div class="gradient-border p-6 rounded-2xl bg-slate-900 shadow-lg">
+                        <h4 class="font-black text-white text-xl mb-3">Eliminar un Producto:</h4>
+                        <p class="text-base text-slate-200 mb-4">Si ejecutas <code class="text-emerald-400 font-bold">npm run start DELETE products/&lt;productId&gt;</code>, el programa debe enviar una petición DELETE para eliminar el producto correspondiente y devolver la respuesta en consola.</p>
+                        <div class="bg-black p-4 rounded-lg font-mono text-sm text-emerald-500 border border-emerald-900/30">Ejemplo: npm run start DELETE products/7</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips de Desarrollo -->
+        <section class="space-y-6">
+            <h2 class="text-3xl font-black text-white border-b-2 border-indigo-500 pb-2 inline-block">Tips de Desarrollo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-600 text-lg text-white flex items-center">
+                    <span class="text-2xl mr-4">🚀</span> Usa process.argv para capturar comandos.
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-600 text-lg text-white flex items-center">
+                    <span class="text-2xl mr-4">🌐</span> Implementa fetch para interactuar con FakeStore.
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-600 text-lg text-white flex items-center">
+                    <span class="text-2xl mr-4">📦</span> Aprovecha destructuring y spread.
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-600 text-lg text-white flex items-center">
+                    <span class="text-2xl mr-4">✂️</span> Utiliza métodos de arrays y strings.
+                </div>
+            </div>
+        </section>
+
+        <!-- NOTA DE LUGIA & MIRTY: EJEMPLOS DE TIPS -->
+        <section class="bg-slate-900 rounded-[2rem] border-2 border-indigo-500 shadow-2xl overflow-hidden">
+            <div class="bg-indigo-600 px-8 py-5 flex justify-between items-center">
+                <h3 class="text-lg font-black text-white uppercase tracking-widest">📝 NOTA DE Lugia & Mirty</h3>
+                <span class="hidden sm:inline bg-white text-indigo-600 px-3 py-1 rounded-full text-xs font-bold uppercase">Ayuda Pro</span>
+            </div>
+            <div class="p-8 space-y-10">
+                
+                <!-- Ejemplo process.argv -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-3xl">🚀</span>
+                        <h4 class="text-sm font-black text-white uppercase tracking-tighter text-lg">Capturar Comandos (process.argv)</h4>
+                    </div>
+                    <pre class="bg-black p-6 rounded-xl text-sm code-font text-emerald-400 border border-slate-700 shadow-inner overflow-x-auto">
+// Ejemplo: node index.js GET products
+const args = process.argv.slice(2);
+const [metodo, ruta] = args; 
+console.log(`Ejecutando ${metodo} en ${ruta}`);</pre>
+                </div>
+
+                <!-- Ejemplo fetch -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-3xl">🌐</span>
+                        <h4 class="text-sm font-black text-white uppercase tracking-tighter text-lg">Uso de Fetch (FakeStore API)</h4>
+                    </div>
+                    <pre class="bg-black p-6 rounded-xl text-sm code-font text-sky-400 border border-slate-700 shadow-inner overflow-x-auto">
+const response = await fetch('https://fakestoreapi.com/products/1');
+const data = await response.json();
+console.log(data.title);</pre>
+                </div>
+
+                <!-- Ejemplo Destructuring & Spread -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-3xl">📦</span>
+                        <h4 class="text-sm font-black text-white uppercase tracking-tighter text-lg">Destructuring & Spread</h4>
+                    </div>
+                    <pre class="bg-black p-6 rounded-xl text-sm code-font text-indigo-400 border border-slate-700 shadow-inner overflow-x-auto">
+// Extraer y copiar objetos
+const { title, price, ...otros } = data; 
+const copia = { ...data, status: 'procesado' };</pre>
+                </div>
+
+                <!-- Ejemplo Métodos Arrays/Strings -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-3xl">✂️</span>
+                        <h4 class="text-sm font-black text-white uppercase tracking-tighter text-lg">Métodos de Strings (Split)</h4>
+                    </div>
+                    <pre class="bg-black p-6 rounded-xl text-sm code-font text-pink-400 border border-slate-700 shadow-inner overflow-x-auto">
+// Separar la ruta por la barra "/"
+const partes = ruta.split('/'); 
+const id = partes[1]; // Ejemplo: si era "products/15", id es 15</pre>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Conclusión -->
+        <section class="bg-sky-600 p-10 rounded-[3rem] shadow-2xl text-center space-y-6">
+            <p class="text-white text-xl font-bold leading-relaxed">
+                Matías finaliza: “Este desafío no solo mide tus habilidades técnicas, sino también tu capacidad para organizarte, resolver problemas y crear soluciones escalables. Si logras superar este reto, estaremos más que seguros de que estás listo para unirte a TechLab”.
+            </p>
+            <h3 class="text-4xl font-black text-slate-900 uppercase italic bg-white inline-block px-6 py-2 rounded-lg">¿Aceptas el desafío? 🌟</h3>
+        </section>
+
+        <!-- Materiales Adicionales -->
+        <section class="pt-10 border-t border-slate-700 space-y-6">
+            <h4 class="text-lg font-black text-white uppercase tracking-widest">Materiales y Recursos Adicionales:</h4>
+            <ul class="text-base text-slate-100 space-y-4 list-none">
+                <li class="flex items-start">
+                    <span class="text-sky-400 mr-3 text-xl">🔗</span>
+                    <div>
+                        <a href="https://restfulapi.net/" target="_blank" class="font-bold text-sky-400 underline hover:text-sky-300">Introducción a las API REST</a>: para profundizar en los principios arquitectónicos de REST.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-sky-400 mr-3 text-xl">🔗</span>
+                    <div>
+                        <a href="https://martinfowler.com/" target="_blank" class="font-bold text-sky-400 underline hover:text-sky-300">Documentación sobre patrones de arquitectura</a>: en el sitio web de Martin Fowler.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-sky-400 mr-3 text-xl">🔗</span>
+                    <div>
+                        <a href="https://www.postman.com/" target="_blank" class="font-bold text-sky-400 underline hover:text-sky-300">Postman</a> y 
+                        <a href="https://insomnia.rest/" target="_blank" class="font-bold text-sky-400 underline hover:text-sky-300">Insomnia</a>: entornos para probar API REST.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-14 text-center border-t border-slate-700">
+        <p class="text-sm text-slate-400 font-bold uppercase tracking-[0.4em]">Lugia & Mirty • Talento Tech 2026</p>
+    </footer>
+
+</body>
+</html>

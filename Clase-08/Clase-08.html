@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machete Clase 8: Servidores y Arquitectura</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .concept-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .concept-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-icon { animation: float 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-indigo-100">
+
+    <!-- Header con Estilo -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 backdrop-blur-md bg-white/80">
+        <div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-3xl float-icon">📟</span>
+                <span class="text-xl font-black tracking-tight uppercase">Clase <span class="text-indigo-600">08</span></span>
+            </div>
+            <div class="text-right hidden sm:block">
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Lugia & Mirty Edición</p>
+                <p class="text-xs font-medium text-slate-600">Servidores y Arquitectura</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+
+        <!-- Introducción -->
+        <section class="text-center space-y-4">
+            <h1 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight">
+                ¿Qué es realmente un <span class="gradient-text">Servidor</span>?
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                No es solo una caja con luces. Es el corazón que late detrás de cada "clic" que das en internet.
+            </p>
+        </section>
+
+        <!-- Bloque 1: Hardware vs Software -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="concept-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
+                <div class="bg-blue-100 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-6">🏗️</div>
+                <h3 class="text-2xl font-bold mb-4">Servidor de Hardware</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Es la máquina física. Una computadora súper potente, sin monitor, que vive en un centro de datos (Data Center) con aire acondicionado a full para no derretirse.
+                </p>
+                <ul class="mt-4 space-y-2 text-xs font-bold text-blue-600">
+                    <li>✓ CPU Multinúcleo</li>
+                    <li>✓ Mucha RAM</li>
+                    <li>✓ Discos en RAID (Seguridad)</li>
+                </ul>
+            </div>
+            <div class="concept-card bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
+                <div class="bg-purple-100 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-6">💿</div>
+                <h3 class="text-2xl font-bold mb-4">Servidor de Software</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Es el programa (como Apache, Nginx o nuestro futuro Node.js) que corre dentro del hardware. Su trabajo es escuchar pedidos y mandar archivos.
+                </p>
+                <ul class="mt-4 space-y-2 text-xs font-bold text-purple-600">
+                    <li>✓ Escucha Puertos (80, 443)</li>
+                    <li>✓ Procesa Lógica</li>
+                    <li>✓ Entrega HTML/JSON</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Bloque 2: Tipos de Hosting (Versión Completa) -->
+        <section class="space-y-8">
+            <h2 class="text-3xl font-bold text-center">El Barrio Digital: Tipos de Alojamiento</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Compartido -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 transition-colors">
+                    <span class="text-3xl block mb-4">🏢</span>
+                    <h4 class="font-bold mb-2">Compartido</h4>
+                    <p class="text-xs text-slate-500">Varios sitios en un mismo servidor físico. Barato, pero si un sitio consume mucho, todos sufren.</p>
+                </div>
+                <!-- VPS -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 transition-colors">
+                    <span class="text-3xl block mb-4">🏠</span>
+                    <h4 class="font-bold mb-2">VPS (Virtual Private Server)</h4>
+                    <p class="text-xs text-slate-500">Servidor físico dividido virtualmente. Tienes recursos garantizados (RAM, CPU) solo para ti.</p>
+                </div>
+                <!-- Dedicado -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 transition-colors">
+                    <span class="text-3xl block mb-4">🏰</span>
+                    <h4 class="font-bold mb-2">Dedicado</h4>
+                    <p class="text-xs text-slate-500">Toda la máquina física es para un solo cliente. Máxima potencia y control total.</p>
+                </div>
+                <!-- Cloud Hosting -->
+                <div class="bg-indigo-600 p-6 rounded-2xl text-white shadow-lg lg:col-span-1">
+                    <span class="text-3xl block mb-4">☁️</span>
+                    <h4 class="font-bold mb-2">Cloud Hosting</h4>
+                    <p class="text-xs text-indigo-100">Red de servidores trabajando juntos. Es elástico: si necesitas más potencia, se escala al instante. Pagas lo que usas.</p>
+                </div>
+                <!-- Especializados -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 transition-colors lg:col-span-2">
+                    <span class="text-3xl block mb-4">🛠️</span>
+                    <h4 class="font-bold mb-2">Hostings Especializados</h4>
+                    <p class="text-xs text-slate-500">Configurados para tecnologías específicas: WordPress, Node.js, Python. Optimizan el software para que esa herramienta vuele.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloque 3: Patrones de Arquitectura (Expandido) -->
+        <section class="space-y-12">
+            <h2 class="text-3xl font-bold text-center">Patrones de Arquitectura de Software</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Basados en Servicios/Microservicios -->
+                <div class="p-8 bg-white rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                    <div class="text-indigo-600 font-black text-xs uppercase tracking-widest">Escalabilidad</div>
+                    <h3 class="text-xl font-bold">Servicios y Microservicios</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        En lugar de un <strong>Monolito</strong> (una app gigante), dividimos la lógica en piezas pequeñas e independientes que hablan entre sí (vía HTTP o colas de mensajes). Ideal para equipos grandes y despliegues rápidos.
+                    </p>
+                </div>
+                <!-- Basados en Eventos -->
+                <div class="p-8 bg-white rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                    <div class="text-rose-600 font-black text-xs uppercase tracking-widest">Reactividad</div>
+                    <h3 class="text-xl font-bold">Arquitectura de Eventos</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        El sistema reacciona a cambios de estado (clics, pagos confirmados, sensores). Un emisor lanza un "evento" y múltiples receptores actúan en consecuencia sin estar rígidamente acoplados.
+                    </p>
+                </div>
+                <!-- Arquitectura Hexagonal -->
+                <div class="p-8 bg-white rounded-3xl border border-slate-200 shadow-sm space-y-4 md:col-span-2">
+                    <div class="text-emerald-600 font-black text-xs uppercase tracking-widest">Mantenibilidad</div>
+                    <h3 class="text-xl font-bold">Arquitectura Hexagonal (Ports & Adapters)</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Su objetivo es aislar la <strong>Lógica de Negocio</strong> (el centro del hexágono) de factores externos como la Base de Datos, el Navegador o APIs de terceros. Usamos "Puertos" para definir qué queremos hacer y "Adaptadores" para conectar la tecnología real. ¡Puedes cambiar la base de datos sin tocar la lógica!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloque 4: Duelo Final MVC vs API REST (Desarrollo Profundo) -->
+        <section class="bg-slate-900 rounded-[3rem] p-10 md:p-16 text-white overflow-hidden relative">
+            <div class="relative z-10 space-y-16">
+                <h2 class="text-3xl md:text-4xl font-black text-center">El Corazón del Curso: MVC vs API REST</h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                    <!-- MVC -->
+                    <div class="space-y-6">
+                        <div class="inline-block px-4 py-1 bg-amber-500 text-black text-[10px] font-black rounded-full uppercase">Renderizado en Servidor</div>
+                        <h3 class="text-2xl font-bold">MVC (Modelo-Vista-Controlador)</h3>
+                        <p class="text-slate-400 text-sm italic">"El servidor te da la página cocinada"</p>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Es un patrón donde el servidor procesa los datos y los mezcla con una plantilla (Template) para generar el HTML final. El cliente recibe el documento listo para mostrar. Muy usado en blogs o sitios tradicionales.
+                        </p>
+                        <ul class="text-xs space-y-2 text-amber-200/80">
+                            <li>• Mayor SEO (el contenido está en el HTML)</li>
+                            <li>• Acoplamiento fuerte entre vista y lógica</li>
+                            <li>• Carga más pesada para el servidor</li>
+                        </ul>
+                    </div>
+
+                    <!-- API REST - Desarrollo Profundo -->
+                    <div class="space-y-6">
+                        <div class="inline-block px-4 py-1 bg-indigo-500 text-white text-[10px] font-black rounded-full uppercase">Arquitectura Desacoplada</div>
+                        <h3 class="text-2xl font-bold">API REST (Representational State Transfer)</h3>
+                        <p class="text-slate-400 text-sm italic">"El servidor te da la esencia: los datos puro JSON"</p>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Aquí es donde brilla Node.js. El servidor es **Stateless** (no guarda estado de sesión entre pedidos) y solo entrega recursos. El Frontend (React, Angular o Mobile) es el encargado de recibir esos datos y decidir cómo "dibujarlos" en pantalla.
+                        </p>
+                        <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                            <p class="text-[10px] font-bold text-indigo-400 mb-2 uppercase tracking-widest">Ejemplo de Respuesta (JSON)</p>
+                            <pre class="text-xs text-indigo-200 overflow-x-auto">
+{
+  "usuario": "Mirty",
+  "curso": "Node.js Back-end",
+  "progreso": 85,
+  "lecciones": ["Servidores", "Arquitectura", "Express"]
+}</pre>
+                        </div>
+                        <ul class="text-xs space-y-2 text-indigo-200/80">
+                            <li>• <strong>Multiplataforma:</strong> Un mismo servidor sirve a la Web y al Celular.</li>
+                            <li>• <strong>Escalabilidad:</strong> Menor carga para el servidor (solo manda texto).</li>
+                            <li>• <strong>Verbos HTTP:</strong> Usa GET, POST, PUT, DELETE de forma estandarizada.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Decoración -->
+            <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-indigo-500/5 rounded-full blur-3xl"></div>
+        </section>
+
+        <!-- Conclusión -->
+        <footer class="text-center space-y-6 pb-20">
+            <div class="inline-block p-6 bg-green-50 rounded-3xl border border-green-100 max-w-2xl">
+                <p class="text-green-800 font-bold mb-2">🚀 ¿Por qué API REST para nuestro curso?</p>
+                <p class="text-green-700 text-sm">
+                    Porque es la forma en la que se construye el software hoy. Nos permite separar el trabajo del equipo de Front del equipo de Back, facilita el testing y permite que nuestra aplicación crezca sin límites. ¡Prepárate porque vamos a modelar datos como profesionales!
+                </p>
+            </div>
+            <div class="pt-10">
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-slate-400 hover:text-indigo-600 transition-all font-bold text-xs uppercase tracking-widest">
+                    Volver arriba ↑
+                </button>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Documentación Técnica Interna -->
+    <script>
+        /* RESUMEN TÉCNICO CLASE 8 - ACTUALIZACIÓN LUGIA & MIRTY:
+           ----------------------------------------------------
+           - HOSTING: Añadidos Cloud y Especializados (Vital para el mercado actual).
+           - PATRONES: Incorporamos Event-Driven, Microservicios y Hexagonal (Conceptos de Arquitectura Senior).
+           - API REST: Ampliada la explicación sobre JSON y el desacoplamiento Frontend/Backend.
+           - INTERACTIVIDAD: Se mantiene el diseño limpio y responsive con Tailwind CSS.
+        */
+        console.log("Machete Clase 8 (Versión Senior) cargado exitosamente.");
+    </script>
+</body>
+</html>
