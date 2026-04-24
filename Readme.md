@@ -36,15 +36,17 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 ---
 
 * **`/Teoria`**: Resumen de las Clases 7 y 8 Teoría.  
-   💬 [Teoría Clase N° 7](./Clase-07/Clase7-Resumen.md) - Resumen Teoría Clase 7 |  
-   💬 [Teoría Clase N° 8](./Clase-08/Clase8-Resumen.md) - Resumen Teoría Clase 8 |  
+   💬 [Teoría Clase N° 7](./Clase-07/Clase7-Resumen.md) - Resumen Teoría Clase 7 (formado MD) |  
+   💬 [Teoría Clase N° 7](https://mirtyta.github.io/NodeJS-Curso/Clase-07/index.html) - Resumen Teoría Clase 7 (Formato html) |  
+   💬 [Teoría Clase N° 8](./Clase-08/Clase8-Resumen.md) - Resumen Teoría Clase 8 (formado MD) |  
+   💬 [Teoría Clase N° 8](https://mirtyta.github.io/NodeJS-Curso/Clase-08/index.html) - Resumen Teoría Clase 8 (Formato html)|  
 
 ---
 
 * **`/Pre-entrega`**: Documentación o material de utilidad para la Pre-Entrega.  
    💬 [Pre-Entrega](./Pre-entrega/consigna.md) - Consigna Pre-entrega |  
-   💬 [Pre-Entrega](./Pre-entrega/GitHub.html) - Tutorial GitHub |  
-   💬 [Pre-Entrega](./Pre-entrega/package.json) - Archivo package.json |  
+   💬 [Pre-Entrega](./Pre-entrega/GitHub.html) - Tutorial GitHub (formato html) |  
+   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/package.json) - Archivo package.json |  
    💬 [Pre-Entrega](./Pre-entrega/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
    💬 [Pre-Entrega](./Pre-entrega/.gitignore) - Ejemplo archivo .gitignore |  
 
