@@ -2,7 +2,7 @@
 
 Internet es una red global que conecta dispositivos de todo el mundo mediante un protocolo (lenguaje común). Cada nodo, ya sea una PC, móvil o servidor, tiene una dirección IP única para ser localizado. Hacemos todo este despliegue por una sola razón: intercambiar información, desde ese meme que te hizo reír, hasta las fotos de tus vacaciones o un mensaje importante. Cuando usas una Web, el DNS traduce el nombre a una IP para encontrarla; en una App, esta ya sabe a qué servidor llamar (vía API); y entre PCs, se hablan directamente de igual a igual. Para que este intercambio sea veloz y seguro, los datos se fragmentan en paquetes pequeños, viajan protegidos por capas de seguridad y, al llegar a su destino, se reensamblan para mostrarte el contenido completo en tiempo real.
 
-# Proceso de navegación: (Modelo TCP/IP)
+## Proceso de navegación: (Modelo TCP/IP)
 
 ## Capas de la aplicacion: (Application Layers)
 

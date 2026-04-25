@@ -49,6 +49,8 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Pre-Entrega](./Pre-entrega/package.json) - Archivo package.json |  
    💬 [Pre-Entrega](./Pre-entrega/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
    💬 [Pre-Entrega](./Pre-entrega/.gitignore) - Ejemplo archivo .gitignore |  
+   💬 [Pre-Entrega](./Pre-entrega/fakeStore.md) - Informacion sobre FakeStor/Productos |  
+   💬 [Pre-Entrega](./Pre-entrega/fakestoreProductos.json) - Base FakeStore/Productos |  
 
 ---
 
