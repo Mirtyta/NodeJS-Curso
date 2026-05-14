@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "titulo": "Mochila plegable n.° 1",
+    "precio": 109.95,
+    "categoria": "hombre"
+  },
+  {
+    "id": "2",
+    "titulo": "Camisetas casuales",
+    "precio": 22.3,
+    "categoria": "hombre"
+  },
+  {
+    "id": "3",
+    "titulo": "Chaqueta de algodon",
+    "precio": 55.99,
+    "categoria": "hombre"
+  },
+  {
+    "id": "4",
+    "titulo": "Corte ajustado casual",
+    "precio": 15.99,
+    "categoria": "hombre"
+  },
+  {
+    "id": "5",
+    "titulo": "Pulsera de cadena",
+    "precio": 695,
+    "categoria": "joyeria"
+  },
+  {
+    "id": "6",
+    "titulo": "Micropavé pequeño",
+    "precio": 168,
+    "categoria": "joyeria"
+  },
+  {
+    "id": "7",
+    "titulo": "Princesa en oro blanco",
+    "precio": 9.99,
+    "categoria": "joyeria"
+  },
+  {
+    "id": "8",
+    "titulo": "Búho perforado",
+    "precio": 10.99,
+    "categoria": "joyeria"
+  },
+  {
+    "id": "9",
+    "titulo": "Disco duro 2 TB - USB 3.0",
+    "precio": 64,
+    "categoria": "electronica"
+  },
+  {
+    "id": "10",
+    "titulo": "SanDisk SSD PLUS 1T",
+    "precio": 109,
+    "categoria": "electronica"
+  },
+  {
+    "id": "11",
+    "titulo": "Silicon Power 256GB",
+    "precio": 109.45,
+    "categoria": "electronica"
+  },
+  {
+    "id": "12",
+    "titulo": "Disco duro externo portátil",
+    "precio": 114,
+    "categoria": "electronica"
+  },
+  {
+    "id": "13",
+    "titulo": "Acer SB220Q",
+    "precio": 599,
+    "categoria": "electronica"
+  },
+  {
+    "id": "14",
+    "titulo": "Monitor ultraancha QLED",
+    "precio": 999.99,
+    "categoria": "electronica"
+  },
+  {
+    "id": "15",
+    "titulo": "Chaqueta de snowboard",
+    "precio": 56.99,
+    "categoria": "Mujer"
+  },
+  {
+    "id": "16",
+    "titulo": "Chaqueta de motociclista",
+    "precio": 29.95,
+    "categoria": "Mujer"
+  },
+  {
+    "id": "17",
+    "titulo": "Chaqueta impermeable",
+    "precio": 39.99,
+    "categoria": "Mujer"
+  },
+  {
+    "id": "18",
+    "titulo": "MBJ Manga Corta",
+    "precio": 9.85,
+    "categoria": "Mujer"
+  },
+  {
+    "id": "19",
+    "titulo": "Camiseta de manga corta",
+    "precio": 7.95,
+    "categoria": "Mujer"
+  },
+  {
+    "id": "20",
+    "titulo": "Camiseta casual",
+    "precio": 12.99,
+    "categoria": "Mujer"
+  }
+]

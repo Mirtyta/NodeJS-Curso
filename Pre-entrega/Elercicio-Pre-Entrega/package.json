@@ -1,0 +1,14 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "Ejercicio Pre-entrega Curso Node JS, 2026/05",
+  "main": "index.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

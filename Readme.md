@@ -18,6 +18,8 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
   💬 [Cuestionario Clase 4](./Cuestionarios/cuestionarioClase4.md)  
   💬 [Cuestionario Clase 6](./Cuestionarios/cuestionarioClase6.md)  
   💬 [Cuestionario Clase 8] NO HAY CUESTIONARIO CLASE 8  
+  💬 [Cuestionario Pre-Entrega](./Cuestionarios/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
+  💬 [Cuestionario Clase 9] NO HAY CUESTIONARIO CLASE 9  
 
 ---
 
@@ -44,13 +46,12 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 ---
 
 * **`/Pre-entrega`**: Documentación o material de utilidad para la Pre-Entrega.  
-   💬 [Pre-Entrega](./Pre-entrega/consigna.md) - Consigna Pre-entrega |  
-   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/GitHub.html) - Tutorial GitHub (formato html) |  
-   💬 [Pre-Entrega](./Pre-entrega/package.json) - Archivo package.json |  
-   💬 [Pre-Entrega](./Pre-entrega/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
-   💬 [Pre-Entrega](./Pre-entrega/.gitignore) - Ejemplo archivo .gitignore |  
-   💬 [Pre-Entrega](./Pre-entrega/fakeStore.md) - Informacion sobre FakeStor/Productos |  
-   💬 [Pre-Entrega](./Pre-entrega/fakestoreProductos.json) - Base FakeStore/Productos |  
+   💬 [Pre-Entrega](./Pre-entrega/assets/consigna.md) - Consigna Pre-entrega |  
+   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/assets/pre-entrega.html) - Consigna Pre-entrega (formato html) |  
+   💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/assets/index.html) - Tutorial GitHub (formato html) |  
+   💬 [Pre-Entrega](./Pre-entrega/assets/fakeStore.md) - Informacion sobre FakeStor/Productos |  
+   💬 [Pre-Entrega](./Pre-entrega/assets/fakestoreProductos.json) - Base FakeStore/Productos |  
+   💬 [Pre-Entrega](./Pre-entrega/Elercicio-Pre-Entrega/) - Directorio ejercicio Pre-Entrega |  
 
 ---
 
