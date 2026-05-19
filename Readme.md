@@ -33,9 +33,15 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Ejercicio N° 6](./Ejercicios/Ejercicio-06/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-06/mision-1.js) - Código MISION 1 | 💬 [Código](./Ejercicios/Ejercicio-06/mision-2.js) - Código MISION 2|  
    💬 [Ejercicio N° 7] NO HAY EJERCICIOS PARA LA CLASE 7  
    💬 [Ejercicio N° 8] NO HAY EJERCICIOS PARA LA CLASE 8  
-   💬 [Ejercicio N° 9](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código] SIN RESOLVER AUN |  
+   💬 [Ejercicio N° 9 - mision 1](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-1/index.js) |  
+   💬 [Ejercicio N° 9 - mision 2](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-2/index.js) | [Info Extra](./Ejercicios/Ejercicio-09/puertos.md)  
+   💬 [Ejercicio N° 10](./Ejercicios/Ejercicio-10/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js) | [Info Extra](./Ejercicios/Ejercicio-10/detallesDeLaEstructura.md)
 
 ---
+
+## ⛏ Recursos
+
+ *(Opcional) Enlaces a documentación o material extra de utilidad.*
 
 * **`/Teoria`**: Resumen de las Clases 7 y 8 Teoría.  
    💬 [Teoría Clase N° 7](./Clase-07/Clase7-Resumen.md) - Resumen Teoría Clase 7 (formado MD) |  
@@ -54,8 +60,6 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Pre-Entrega](./Pre-entrega/Elercicio-Pre-Entrega/) - Directorio ejercicio Pre-Entrega |  
 
 ---
-
-* **`/Recursos`**: (Opcional) Enlaces a documentación o material extra de utilidad.
 
 > "Separar las responsabilidades en el código es como organizar la casa: ¡después encontrás todo mucho más fácil!" ✨
 
