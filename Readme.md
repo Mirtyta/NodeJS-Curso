@@ -12,18 +12,36 @@ Este repositorio es para nosotros: para reforzar lo aprendido, sacarnos dudas y 
 
 El contenido está organizado por carpetas para que encontrar lo que buscan sea súper rápido:
 
-* **`/cuestionarios`**: Los repasamos juntos una vez que los vemos con el profe para que todos tengamos la info correcta.  
+💬 [CuestionarioS](#cuestionarios) | Todos los cuestionarios de la cursada.  
+💪 [Ejercicios](#ejercicios) | Todos los ejercicios de la cursada.  
+📚 [Recursos](#recursos) | Recursos completos de temas importantes, errores comunes, dudas, etc.  
+📔 [Teoria](#teoria) | Resumenes de clases teoricas 7 y 8.  
+🛠 [Pre-entrega](#pre-entrega) | Todo sobre la pre-entrega.  
+🔗 [Todos los Links de la Cursada](#links-imprescindibles) | Clases presenciales y grabadas, y links de whatsapp, discord...etc
+⚙  [Información Oficial de la Cursada](#informacion-oficial-de-la-cursada) | Información de la cursada completa..
+🤷‍♀️ [Cómo empezar](#como-empezar) | como utilizar éste repositorio.  
+✍ [Notas Importantes](#notas-importantes) | Detalle importante
+
+---
+
+## cuestionarios
+
+**Los repasamos juntos una vez que los vemos con el profe para que todos tengamos la info correcta.**
 
   💬 [Cuestionario Clase 2](./Cuestionarios/cuestionarioClase2.md)  
   💬 [Cuestionario Clase 4](./Cuestionarios/cuestionarioClase4.md)  
   💬 [Cuestionario Clase 6](./Cuestionarios/cuestionarioClase6.md)  
   💬 [Cuestionario Clase 8] NO HAY CUESTIONARIO CLASE 8  
   💬 [Cuestionario Pre-Entrega](./Cuestionarios/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
-  💬 [Cuestionario Clase 9] NO HAY CUESTIONARIO CLASE 9  
+  💬 [Cuestionario Clase 10] NO HAY CUESTIONARIO CLASE 10  
+  💬 [Cuestionario Clase 12] NO HAY CUESTIONARIO CLASE 12
+  💬 [Cuestionario Clase 14] NO HAY CUESTIONARIO CLASE 14
 
 ---
 
-* **`/Ejercicios`**: Todas las prácticas de las clases, organizadas para que puedan consultarlas cuando quieran.
+## Ejercicios
+
+**Todas las prácticas de las clases, organizadas para que puedan consultarlas cuando quieran.**
 
    💬 [Ejercicio N° 1](./Ejercicios/Ejercicio-01/consigna.md) - Consigna |  
    💬 [Ejercicio N° 2](./Ejercicios/Ejercicio-02/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-02/index.js) - Código Ejercicio Solicitado |  
@@ -36,14 +54,23 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Ejercicio N° 9 - mision 1](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-1/index.js) |  
    💬 [Ejercicio N° 9 - mision 2](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-2/index.js) | [Info Extra](./Ejercicios/Ejercicio-09/puertos.md)  
    💬 [Ejercicio N° 10](./Ejercicios/Ejercicio-10/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js) | [Info Extra](./Ejercicios/Ejercicio-10/detallesDeLaEstructura.md)
+   💬 [Ejercicio N° 11](./Ejercicios/Ejercicio-11/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js)
+   💬 [Ejercicio N° 12](./Ejercicios/Ejercicio-12/Consigna.md) - Consigna | sIN RESOLVER AÚN
+   💬 [Ejercicio N° 13](./Ejercicios/Ejercicio-13/Consigna.md) - Consigna | sIN RESOLVER AÚN
+   💬 [Ejercicio N° 14](./Ejercicios/Ejercicio-14/Consigna.md) - Consigna | sIN RESOLVER AÚN
 
 ---
 
-## ⛏ Recursos
+## Recursos
 
  *(Opcional) Enlaces a documentación o material extra de utilidad.*
 
-* **`/Teoria`**: Resumen de las Clases 7 y 8 Teoría.  
+  Para que sirve nodemon:
+  instalar Gemini Code Assist en VSCode:
+  
+## Teoria
+
+**Resumen de las Clases 7 y 8 Teoría.**  
    💬 [Teoría Clase N° 7](./Clase-07/Clase7-Resumen.md) - Resumen Teoría Clase 7 (formado MD) |  
    💬 [Teoría Clase N° 7](https://mirtyta.github.io/NodeJS-Curso/Clase-07/index.html) - Resumen Teoría Clase 7 (Formato html) |  
    💬 [Teoría Clase N° 8](./Clase-08/Clase8-Resumen.md) - Resumen Teoría Clase 8 (formado MD) |  
@@ -51,7 +78,9 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
-* **`/Pre-entrega`**: Documentación o material de utilidad para la Pre-Entrega.  
+## Pre-entrega
+
+**Documentación o material de utilidad para la Pre-Entrega.**
    💬 [Pre-Entrega](./Pre-entrega/assets/consigna.md) - Consigna Pre-entrega |  
    💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/assets/pre-entrega.html) - Consigna Pre-entrega (formato html) |  
    💬 [Pre-Entrega](https://mirtyta.github.io/NodeJS-Curso/Pre-entrega/assets/index.html) - Tutorial GitHub (formato html) |  
@@ -65,7 +94,7 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
-## 🔗 Links Imprescindibles
+## Links Imprescindibles
 
 * 💬 **[Grupo de WhatsApp](https://chat.whatsapp.com/LapNVABXE5ZGyh4GRdpDtx)**
 * 🖥️ **GitHub del Profesor:** [nicor528 - Backend Node.js](https://github.com/nicor528/backend-nodejs-26132)
@@ -76,34 +105,36 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
-## 🏛️ Información Oficial de la Cursada (Comisión 26132)
+## Informacion Oficial de la Cursada
 
-### 🎥 Clases en vivo (Obligatorias)
+**(Comisión 26132)**
+
+### Clases en vivo (Obligatorias)
 
 * **Horario:** Lunes de 19:00 a 21:00 hs.
 * **Plataforma:** [Enlace a clase por ZOOM](https://us02web.zoom.us/meeting/register/VI1V3Z30SX2qY2juC1fp8A)
 * **ID de reunión:** `828 5861 9338`
 * ⚠️ **Importante:** Revisar la [Guía para ingresar a Zoom](https://docs.google.com/document/d/1qplxN8-XhPI1bKUbghowFPkNDs_Jz1EU1Ow_L3zzDOw/edit). El nombre debe ser `Apellido, Nombre` para la asistencia.
 
-### 🔧 Clases de práctica (Consultas)
+### Clases de práctica (Consultas)
 
 * **Horario:** Miércoles de 19:00 a 20:00 hs (inicia el 25/03).
 * **Plataforma:** [Link clase de práctica (Meet)](https://meet.google.com/tsu-fshs-zep)
 
-### 🏫 Aula Virtual
+### Aula Virtual
 
 * **Acceso:** [Plataforma del Aula Virtual](https://aulasvirtuales.bue.edu.ar/?redirect=0)
 * **Usuario:** Tu DNI (sin puntos ni guiones).
 * ⚠️ El ingreso al campus estará disponible a partir del viernes 13/03.
 
-### 👥 Equipo Docente
+### Equipo Docente
 
 * **Tutora:** Agustina Vargas ([ag.vargas@bue.edu.ar](mailto:ag.vargas@bue.edu.ar))
 * **Instructor:** Nicolas Riquelme ([nicolas.riquelme@bue.edu.ar](mailto:nicolas.riquelme@bue.edu.ar))
 
 ---
 
-## 📋 Requisitos para Aprobar
+## Requisitos para Aprobar
 
 * **Asistencia:** 70% de presencia en las clases sincrónicas.
 * **Evaluación:** Completar cuestionarios obligatorios y aprobar el Proyecto Final Integrador.
@@ -113,7 +144,7 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
-## 🛠️ Requisitos Previos (Local)
+## Requisitos Previos
 
 Para correr los ejercicios, necesitás:
 
@@ -123,7 +154,7 @@ Para correr los ejercicios, necesitás:
 
 ---
 
-## 🚀 Cómo empezar
+## Como empezar
 
 Si quieres tener una copia local para practicar o consultar el código:
 
@@ -147,9 +178,9 @@ Si quieres tener una copia local para practicar o consultar el código:
 
 ---
 
-### 📝 Notas importantes
+### Notas importantes
 
-* Los cuestionarios se suben después de ser vistos en clase para asegurar que las respuestas sean las correctas.
+* Los cuestionarios se suben después de ser vistos en clase para asegurar que las respuestas sean las correctas. 🤦‍♀️🙏👋
 * *"El código es como el humor: si tienes que explicarlo, es malo."* - Vamos a comentar bien nuestro código para que todos lo entendamos.
 
 ---
