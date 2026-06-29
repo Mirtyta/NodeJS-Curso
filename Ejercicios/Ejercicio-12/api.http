@@ -1,0 +1,49 @@
+### NOTA: Para utilizar este archivo directamente en el editor VS Code, 
+### debe instalar la extensión "REST Client" del autor Huachao Mao.
+### los send Request son las letras muy pequeñas, al pasar el mouse por encima se vuelve azul el texto.
+
+### CONFIGURACIÓN DE VARIABLES LOCALES
+@hostname = http://localhost:3000
+@productoId = INGRESAR_NUMERO_ID_PRODUCTO
+@categoria = perifericos
+@precioMax = 35000
+
+### 1. Ruta Home / Bienvenida (Navegador)
+GET {{hostname}}/
+
+### 2. Obtener todos los productos (Público)
+GET {{hostname}}/api/products
+
+### 3. Obtener un producto específico por ID (Público)
+GET {{hostname}}/api/products/{{productoId}}
+
+### 4. Filtrar por precio y categoría (Público filtrado con all)
+GET {{hostname}}/api/products?category={{categoria}}&price={{precioMax}}
+
+### 4. Filtrar por precio y categoría (Público filtrado con filter)
+GET {{hostname}}/api/products/filter?category={{categoria}}&price={{precioMax}}
+
+### 5. Crear un producto (Público por ahora)
+POST {{hostname}}/api/products
+Content-Type: application/json
+
+{
+    "name": "Teclado Mecánico Pro",
+    "price": 45000,
+    "category": "perifericos",
+    "stock": 15,
+    "description": "Teclado gamer con switches azules y luces RGB custom",
+    "imageUrl": "https://link-a-imagen.com/teclado.jpg"
+}
+
+### 6. Actualizar un producto por ID (Público por ahora)
+PUT {{hostname}}/api/products/{{productoId}}
+Content-Type: application/json
+
+{
+    "price": 49000,
+    "stock": 12
+}
+
+### 7. Eliminar un producto (Público por ahora)
+DELETE {{hostname}}/api/products/{{productoId}}

@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "tomoki1207.pdf",
+    "formulahendry.code-runner",
+    "oderwat.indent-rainbow",
+    "dsznajder.es7-react-js-snippets",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "pranaygp.vscode-css-peek",
+    "leonardonaddei.json-grid-editor",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "davidanson.vscode-markdownlint",
+    "christian-kohler.npm-intellisense",
+    "ritwickdey.liveserver",
+    "humao.rest-client",
+    "ms-ceintl.vscode-language-pack-es"
+  ]
+}

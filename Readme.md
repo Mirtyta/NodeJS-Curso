@@ -16,11 +16,12 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 💪 [Ejercicios](#ejercicios) | Todos los ejercicios de la cursada.  
 📚 [Recursos](#recursos) | Recursos completos de temas importantes, errores comunes, dudas, etc.  
 📔 [Teoria](#teoria) | Resumenes de clases teoricas 7 y 8.  
-🛠 [Pre-entrega](#pre-entrega) | Todo sobre la pre-entrega.  
-🔗 [Todos los Links de la Cursada](#links-imprescindibles) | Clases presenciales y grabadas, y links de whatsapp, discord...etc
-⚙  [Información Oficial de la Cursada](#informacion-oficial-de-la-cursada) | Información de la cursada completa..
+🛠 [Pre-entrega](#entrega-proyecto-final) | Todo sobre la pre-entrega.  
+🔗 [Todos los Links de la Cursada](#links-imprescindibles) | Clases presenciales y grabadas, y links de whatsapp, discord...etc  
+⚙  [Información Oficial de la Cursada](#informacion-oficial-de-la-cursada) | Información de la cursada completa..  
 🤷‍♀️ [Cómo empezar](#como-empezar) | como utilizar éste repositorio.  
-✍ [Notas Importantes](#notas-importantes) | Detalle importante
+✍ [Notas Importantes](#notas-importantes) | Detalle importante  
+🛠 [Entrega Proyecto Final](#entrega-proyecto-final) | Todo sobre Proyecto Final.  
 
 ---
 
@@ -32,10 +33,10 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
   💬 [Cuestionario Clase 4](./Cuestionarios/cuestionarioClase4.md)  
   💬 [Cuestionario Clase 6](./Cuestionarios/cuestionarioClase6.md)  
   💬 [Cuestionario Clase 8] NO HAY CUESTIONARIO CLASE 8  
-  💬 [Cuestionario Pre-Entrega](./Cuestionarios/cuestionarioPre-Entrega.md) - Cuestionario Pre-Entrega |  
-  💬 [Cuestionario Clase 10] NO HAY CUESTIONARIO CLASE 10  
-  💬 [Cuestionario Clase 12] NO HAY CUESTIONARIO CLASE 12
-  💬 [Cuestionario Clase 14] NO HAY CUESTIONARIO CLASE 14
+  💬 [Cuestionario Pre-Entrega](./Cuestionarios/cuestionarioPre-Entrega.md)  
+  💬 [Cuestionario Clase 10](./Cuestionarios/cuestionarioClase10.md)  
+  💬 [Cuestionario Clase 12](./Cuestionarios/cuestionarioClase12.md)  
+  💬 [Cuestionario Clase 14](./Cuestionarios/cuestionarioClase14.md)  
 
 ---
 
@@ -53,11 +54,11 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Ejercicio N° 8] NO HAY EJERCICIOS PARA LA CLASE 8  
    💬 [Ejercicio N° 9 - mision 1](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-1/index.js) |  
    💬 [Ejercicio N° 9 - mision 2](./Ejercicios/Ejercicio-09/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-09/mision-2/index.js) | [Info Extra](./Ejercicios/Ejercicio-09/puertos.md)  
-   💬 [Ejercicio N° 10](./Ejercicios/Ejercicio-10/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js) | [Info Extra](./Ejercicios/Ejercicio-10/detallesDeLaEstructura.md)
-   💬 [Ejercicio N° 11](./Ejercicios/Ejercicio-11/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js)
-   💬 [Ejercicio N° 12](./Ejercicios/Ejercicio-12/Consigna.md) - Consigna | sIN RESOLVER AÚN
-   💬 [Ejercicio N° 13](./Ejercicios/Ejercicio-13/Consigna.md) - Consigna | sIN RESOLVER AÚN
-   💬 [Ejercicio N° 14](./Ejercicios/Ejercicio-14/Consigna.md) - Consigna | sIN RESOLVER AÚN
+   💬 [Ejercicio N° 10](./Ejercicios/Ejercicio-10/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-10/index.js) | [Info Extra](./Ejercicios/Ejercicio-10/detallesDeLaEstructura.md)  
+   💬 [Ejercicio N° 11](./Ejercicios/Ejercicio-11/consigna.md) - Consigna | 💬 [Código](./Ejercicios/Ejercicio-11/index.js)  
+   💬 [Ejercicio N° 12](./Ejercicios/Ejercicio-12/Consigna.md) - Consigna | 💬 [Código paso a paso](./Ejercicios/Ejercicio-12/README.md)  
+   💬 [Ejercicio N° 13](./Ejercicios/Ejercicio-13/Consigna.md) - Consigna | 💬 [Código paso a paso](./Ejercicios/Ejercicio-13/README.md)  
+   💬 [Ejercicio N° 14](./Ejercicios/Ejercicio-14/Consigna.md) - Consigna | 💬 [Código paso a paso](./Ejercicios/Ejercicio-14/README.md)  
 
 ---
 
@@ -90,6 +91,13 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ---
 
+## Entrega Proyecto Final
+
+   💬 [Consigna (html)](./Entrega-Final/consigna.html) - Consigna Proyecti Final (HTML) |  
+   💬 [Consigna](./Entrega-Final/consigna.md) - Consigna Proyecti Final (MD) |  
+   💬 [Información&Deploy](./Entrega-Final/README.md) - Informaciön ayuda (MD) |  
+   💬 [Ayuda Paso a paso](./Ejercicios/Ejercicio-14/README.md) - Informaciön ayuda (MD) |  
+
 > "Separar las responsabilidades en el código es como organizar la casa: ¡después encontrás todo mucho más fácil!" ✨
 
 ---
@@ -107,7 +115,7 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
 
 ## Informacion Oficial de la Cursada
 
-**(Comisión 26132)**
+## (Comisión 26132)
 
 ### Clases en vivo (Obligatorias)
 
