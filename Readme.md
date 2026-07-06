@@ -96,7 +96,8 @@ El contenido está organizado por carpetas para que encontrar lo que buscan sea 
    💬 [Consigna (html)](./Entrega-Final/consigna.html) - Consigna Proyecti Final (HTML) |  
    💬 [Consigna](./Entrega-Final/consigna.md) - Consigna Proyecti Final (MD) |  
    💬 [Información&Deploy](./Entrega-Final/README.md) - Informaciön ayuda (MD) |  
-   💬 [Vercel-Subir .env](./Enviroment-vercel.md) - Informaciön ayuda subir variables firebase a vercel(MD) |  
+   💬 [Vercel-Subir .env](./Recursos/Enviroment-vercel.md) - Informaciön ayuda subir variables firebase a vercel(MD) |  
+   💬 [Error de Bloqueo (401 Unauthorized) en Vercel](./Recursos/error-401.md) - Solución a Error de Bloqueo (401 Unauthorized) en Vercel(MD) |  
    💬 [Ayuda Paso a paso](./Ejercicios/Ejercicio-14/README.md) - Informaciön ayuda (MD) |  
 
 > "Separar las responsabilidades en el código es como organizar la casa: ¡después encontrás todo mucho más fácil!" ✨
