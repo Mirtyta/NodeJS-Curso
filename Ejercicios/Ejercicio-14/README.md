@@ -2,6 +2,8 @@
 
 Este ejercicio es el paso a paso de la entrega del Proyecto final del curso **Node.js de Talento Tech (Comisión 26132)**. Se trata de una API REST profesional diseñada para la administración de un catálogo de productos, integrando persistencia en la nube con Firebase y seguridad avanzada mediante JSON Web Tokens (JWT). (cumple todos los requerimientos de la consigna)
 
+Lo ùnico que deben hacer para que todo funcione es completar .env, segun las variables de .env.example de su propio firebase, y listo podran probar en local y con su link de vercel èsta proyecto backend, si no les deja vercel, deberan deshabilitar el deploymebnt Protection, en la configuracion de vercel, apartado Deployment Protection deshabilitenlo, y listo, recuerden subir a su vercel .env de sus credenciales... ver [aqui](../../Recursos/Enviroment-vercel.md) como se hace..
+
 Pasos para hacer el ejercicio
 
 ## Paso 1 - Creamos la carpeta del nuevo proyecto (podés ponerle el nombre que quieras)

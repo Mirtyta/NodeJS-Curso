@@ -1,9 +1,10 @@
 ### NOTA: Para utilizar este archivo directamente en el editor VS Code, 
 ### debe instalar la extensión "REST Client" del autor Huachao Mao.
 ### los send Request son las letras muy pequeñas, al pasar el mouse por encima se vuelve azul el texto.
+### éste se comporta igual que Postman, si esto funciona correctamente Postman tambien funcionara bien
 
 ### CONFIGURACIÓN DE VARIABLES LOCALES
-# 1. Puerto del servidor
+# 1. Puerto del servidor (coloquen aquì el puerto local o la url de su deploy en vercel)
 @hostname = http://localhost:3000
 
 # 2. Después del login, pega el token aquí:
@@ -19,7 +20,7 @@
 
 
 ### 1. Iniciar sesión para obtener el Token
-# Cambia los valores si pusiste otros en tu .env
+# Cambia los valores si pusiste otros en tu .env y copia el token en su variable arriba
 POST {{hostname}}/api/auth/login
 Content-Type: application/json
 
